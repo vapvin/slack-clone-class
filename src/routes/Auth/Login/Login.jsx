@@ -27,7 +27,6 @@ function Signup() {
   const [userData, setUserData] = useState(user);
   const [errorState, setErrorState] = useState(errors);
   const [loading, setLoading] = useState(false);
-  const [succes, setSucces] = useState(false);
 
   const controllInput = (e) => {
     let { name, value } = e.target;
